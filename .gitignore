@@ -1,0 +1,51 @@
+﻿# Dependencies
+node_modules/
+.venv/
+venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+*.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+*.log
+
+# Web Build Output
+dist/
+dist-ssr/
+*.local
+
+# Tauri / Rust
+src-tauri/target/
+src-tauri/gen/schemas/
+
+# Release Binaries (Publish via GitHub Releases instead)
+dist_release/
+*.exe
+*.msi
+
+# Local Data & Crawl Snapshots (Strict Privacy Protection)
+data/
+*.db
+*.sqlite
+*.sqlite3
+
+# Environment & Credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Editor & OS
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.DS_Store
+Thumbs.db

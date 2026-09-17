@@ -1,0 +1,23 @@
+{
+  "id": "standard_blog",
+  "name": "标准技术博客适配器 (Sample)",
+  "version": "1.0.0",
+  "author": "Loomark Community",
+  "type": "rule",
+  "match": [
+    "*.medium.com",
+    "dev.to",
+    "*github.io*"
+  ],
+  "category": [
+    "article"
+  ],
+  "description": "针对常见科技与技术博客的精准正文、作者与发布日期 CSS 抽取规则",
+  "rules": {
+    "title": "h1, .entry-title, .post-title",
+    "content": "article, .post-content, .entry-content",
+    "author": ".author-name, .post-author, [rel='author']",
+    "published_at": "time, .post-date, .published"
+  },
+  "enabled": true
+}
