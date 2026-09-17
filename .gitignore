@@ -1,4 +1,4 @@
-﻿# Dependencies
+# Dependencies
 node_modules/
 .venv/
 venv/
@@ -49,3 +49,9 @@ data/
 *.sublime-workspace
 .DS_Store
 Thumbs.db
+
+# Specs & Internal Docs
+*PRD*.md
+*prd*.md
+*.prd
+
