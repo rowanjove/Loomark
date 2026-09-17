@@ -9,6 +9,7 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/rowanjove/Loomark/releases/latest"><img src="https://img.shields.io/github/v/release/rowanjove/Loomark?color=blue&label=Windows%20Release" alt="Latest Release" /></a>
   <img src="https://img.shields.io/badge/Desktop-Tauri_v2-24C8DB?logo=tauri&logoColor=white" alt="Tauri v2" />
   <img src="https://img.shields.io/badge/Frontend-React_18_+_TypeScript-61DAFB?logo=react&logoColor=black" alt="React" />
   <img src="https://img.shields.io/badge/Engine-Python_3.12-3776AB?logo=python&logoColor=white" alt="Python" />
