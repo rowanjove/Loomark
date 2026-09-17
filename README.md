@@ -1,4 +1,4 @@
-﻿# Loomark
+# Loomark
 
 <p align="center">
   <img src="./public/app-icon.png" width="96" height="96" alt="Loomark Logo" style="border-radius: 18px;" />
@@ -103,16 +103,15 @@
 
 ### 运行环境准备
 
-- **Node.js**: >= 18.0.0 (推荐 pnpm: 
-pm i -g pnpm)
+- **Node.js**: >= 18.0.0 (推荐安装 pnpm: `npm install -g pnpm`)
 - **Python**: >= 3.10 (推荐 3.11 或 3.12)
-- **Rust** (可选，仅用于编译 Tauri 桌面端安装包): 安装 ustc 和 cargo
+- **Rust** (可选，仅用于编译 Tauri 桌面端安装包): 安装 rustc 与 cargo
 
 ### 1. 克隆代码仓库
 
 `ash
-git clone https://github.com/your-username/loomark.git
-cd loomark
+git clone https://github.com/rowanjove/Loomark.git
+cd Loomark
 `
 
 ### 2. 初始化后端 Python 环境
@@ -143,7 +142,7 @@ pnpm install
 **方式一：一键快速启动（推荐）**
 
 直接双击运行根目录脚本：
-`ash
+`cmd
 start_loomark.bat
 `
 脚本将自动拉起后端爬虫引擎服务（127.0.0.1:8765）并启动前端开发界面（http://localhost:1420）。
@@ -198,7 +197,7 @@ pnpm tauri build
 ## 隐私安全与合规声明
 
 1. **隐私安全**：Loomark 为纯本地软件，不集成任何第三方行为监控或分析打点。除用户自主配置的 AI 接口通信外，所有数据存储与请求均发生在本地环境。
-2. **合规提示**：本项目开源用于个人学术研究、资料整理与知识沉淀。使用者应遵守目标网站的 obots.txt 协议与相关法律法规，请勿针对未授权目标进行高频过载抓取。
+2. **合规提示**：本项目开源用于个人学术研究、资料整理与知识沉淀。使用者应遵守目标网站的 robots.txt 协议与相关法律法规，请勿针对未授权目标进行高频过载抓取。
 
 ---
 
