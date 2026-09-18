@@ -1,0 +1,14 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  python-test:
+    uses: rowanjove/.github/.github/workflows/python-ci.yml@main
+  tauri-windows:
+    uses: rowanjove/.github/.github/workflows/tauri-windows.yml@main
