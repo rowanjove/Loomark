@@ -14,7 +14,7 @@
   <img src="https://img.shields.io/badge/Frontend-React_18_+_TypeScript-61DAFB?logo=react&logoColor=black" alt="React" />
   <img src="https://img.shields.io/badge/Engine-Python_3.12-3776AB?logo=python&logoColor=white" alt="Python" />
   <img src="https://img.shields.io/badge/Storage-SQLite_FTS5-003B57?logo=sqlite&logoColor=white" alt="SQLite" />
-  <img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License" />
+  <img src="https://img.shields.io/badge/License-Apache--2.0-blue.svg" alt="License" />
 </p>
 
 ---
@@ -204,4 +204,4 @@ pnpm tauri build
 
 ## 开源协议
 
-本项目基于 [MIT License](LICENSE) 开源发布。欢迎提交 Issue 与 Pull Request 共同改进！
+本项目基于 [Apache-2.0 License](LICENSE) 开源发布。欢迎提交 Issue 与 Pull Request 共同改进！
